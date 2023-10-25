@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proyek Kelompok 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- My css -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- My css akhir -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar fixed-top navbar-dark shadow"
+      style="background-color: #06a7a4"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="/Beranda/beranda.html"
+          >Epitychía</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Beranda/beranda.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Gallery/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kontak
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/Kontak/Instagram/instagram.html"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/Kontak/Portofolio/portofolio.html"
+                    >Portofolio</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/Ulasan/ulasan.html"
+                >Ulasan</a
+              >
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Cari Kota Impianmu..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Cari</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img
+        src="/assets/Epitychía.png"
+        alt="Nama Toko"
+        height="200"
+        width="200"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4 fw-bold m-3" style="color: #06a7a4">
+        "Mengenal Lebih Dekat"
+      </h1>
+      <i class="lead fb" style="color: #06a7a4">
+        <a class="nav-link" href="#">Tour Guide | Reseller</a>
+      </i>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L40,133.3C80,139,160,149,240,170.7C320,192,400,224,480,234.7C560,245,640,235,720,202.7C800,171,880,117,960,96C1040,75,1120,85,1200,106.7C1280,128,1360,160,1400,176L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!--  Tentang Kami -->
+    <section id="Tentang Kami">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col text-center mb-5">
+            <h2 style="color: #06a7a4">Instagram</h2>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img
+                src="/assets/Adel.jpg"
+                alt="Foto Adelia Angraeni"
+                height="300"
+                width="200"
+                class="rounded-circle img-thumbnail"
+              />
+                <a href="" class="sosial" style="background-color: black;"
+                  ><i class="fa-brands fa-instagram" style="color: #05b8ac"></i
+                ></a>
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 448 512"
+              >
+                <style>
+                  svg {
+                    fill: #05b8ac;
+                  }
+                </style>
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+              <h4><a href="http://www.instagram.com/adeeelll_02/" style="color: #06a7a4;">Adelia Angraeni</h4></a>
+            </div>
+            <div class="col">
+              <img
+                src="/assets/Luthfi.jpg"
+                alt="Foto hmad Luthfi"
+                height="300"
+                width="200"
+                class="rounded-circle img-thumbnail"
+              />
+                <a href="" class="sosial"
+                  ><i class="fa-brands fa-instagram" style="color: #05b8ac"></i
+                ></a>
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 448 512"
+              >
+                <style>
+                  svg {
+                    fill: #05b8ac;
+                  }
+                </style>
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+              <h4><a href="http://www.instagram.com/ahmd_luthfi21" style="color: #06a7a4;">Ahmad Luthfi</h4></a>
+            </div>
+            <div class="col">
+              <img
+                src="/assets/andiina.jpg"
+                alt="Foto Andina Maharani"
+                height="300"
+                width="200"
+                class="rounded-circle img-thumbnail"
+              />
+                <a href="" class="social"
+                  ><i class="fa-brands fa-instagram" style="color: #05b8ac"></i
+                ></a>
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 448 512"
+              >
+                <style>
+                  svg {
+                    fill: #05b8ac;
+                  }
+                </style>
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+              <h4><a href="http://www.instagram.com/_andinaaaaa" style="color: #06a7a4;">Andina Maharani</h4></a>
+            </div>
+            <div class="col">
+              <img
+                src="/assets/Ardi.jpg"
+                alt="Foto Andi Ardiansyah Sonda"
+                height="300"
+                width="200"
+                class="rounded-circle img-thumbnail"
+              />
+                <a href="" class="social"
+                  ><i class="fa-brands fa-instagram" style="color: #05b8ac"></i
+                ></a>
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="3em"
+                viewBox="0 0 448 512"
+              >
+                <style>
+                  svg {
+                    fill: #05b8ac;
+                  }
+                </style>
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+              <h4><a href="http://www.instagram.com/ardiansyahhh18" style="color: #06a7a4;">Andi Ardiansyah Sonda</h4></a>
+            </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#06a7a4"
+        fill-opacity="1"
+        d="M0,224L48,218.7C96,213,192,203,288,218.7C384,235,480,277,576,272C672,267,768,213,864,192C960,171,1056,181,1152,181.3C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- Akhir Tentang Kami -->
+
+    <!-- Footer -->
+    <footer class="text-white text-center" style="background-color: #06a7a4">
+      <h7>Created with <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#dd0e0e}</style><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg> by Kelompok <strong>Epitychía</strong></a>
+      </h7>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
